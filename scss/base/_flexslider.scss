@@ -1,0 +1,119 @@
+@import "../functions";
+// Custom variables\
+// $body-bg: #ccc;
+$body-font-color: #666;
+/*Flexslider*/
+.flexslider{
+	background: none;
+	margin: 0;
+}
+
+.flexslider .flex-direction-nav a, .flexslider .flex-direction-nav a{
+	display: block;
+}
+
+.flexslider .flex-caption{
+	position: absolute;
+	bottom:  0px;
+	width: 100%;
+	text-align: center;
+	background: url(../images/bildspel-black-transp.png) repeat-x bottom right ;
+	padding-top: 0.8rem;
+	padding-bottom: 0.8rem;
+	
+	font-family: $font-family-ptsans-narrow;
+	font-weight: 400;
+}
+.flexslider .flex-caption a{
+	color: $white;
+	font-size: 23px;
+}
+.flexslider .flex-caption a:hover{
+	color: $white;
+}
+
+.flexslider .flex-direction-nav a.flex-prev,
+.flexslider .flex-direction-nav a.flex-next {
+    display: block;
+    opacity: 1;
+	font-size: 2rem;
+	/*bottom: 0;*/
+	color: #fff;
+}
+.flexslider .flex-direction-nav{
+	bottom: 30px;
+	position: relative;
+	
+}
+.flexslider .flex-direction-nav a.flex-prev {
+    left: 1rem;
+}
+.flexslider .flex-direction-nav a.flex-next {
+    right: 1rem;
+}
+.flexslider:hover .flex-direction-nav a.flex-next {
+    right: 1rem;
+}
+.flexslider:hover .flex-direction-nav a.flex-prev {
+    left: 1rem;
+}
+.flexslider .flex-direction-nav a:before {
+    font-family: serif;
+    content: "";
+}
+
+
+
+.flexslider{
+	border:  0;
+}
+.flexslider .flex-bild{
+	position: relative;
+}
+.flexslider .flex-bildtext{
+	position: absolute;
+	bottom: 20%;
+	text-align: center;
+	left:0;
+	right:0;
+	width: 50%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.flexslider .flex-moon{
+	/*pointer-events: none;*/
+	position: absolute;
+	bottom: 0;
+	background-color: $white;
+	width: 80px;
+	height: 40px;
+	-moz-border-radius: 40px 40px 0 0;
+	-webkit-border-radius: 40px 40px 0 0;
+	border-radius: 40px 40px 0 0;
+	left:0;
+	right:30%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.flexslider .flex-moon .flex-moon-text{
+	/*pointer-events: none;*/
+	text-align: center;
+	text-transform: uppercase;
+	position: absolute;
+	bottom: 4px;
+	font-size: 0.80rem;
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+/*Typografi*/
+.flexslider .flex-bildtext{
+	color: $white;
+}
+.flexslider .flex-bildtext blockquote{
+	margin: 0;
+	border:  none;
+	padding: 0; 
+}

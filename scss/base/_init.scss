@@ -15,7 +15,13 @@
 	font-family: $font-family-ptsans-narrow;
 	font-weight: 700;
 }
-
+.view-we-do p{
+	margin-bottom: 0;
+}
+a.pdf-icon:after{
+	content: " Ladda ner Pdf";
+	font-size: 14px;
+}
 .sidebar-first h3,
 .sidebar-second h3,
 .block-title,

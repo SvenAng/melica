@@ -8448,7 +8448,18 @@ th.hide-for-touch {
   font-weight: 700;
 }
 
-/* line 19, ../scss/base/_init.scss */
+/* line 18, ../scss/base/_init.scss */
+.view-we-do p {
+  margin-bottom: 0;
+}
+
+/* line 21, ../scss/base/_init.scss */
+a.pdf-icon:after {
+  content: " Ladda ner Pdf";
+  font-size: 14px;
+}
+
+/* line 25, ../scss/base/_init.scss */
 .sidebar-first h3,
 .sidebar-second h3,
 .block-title,
@@ -8458,65 +8469,65 @@ th.hide-for-touch {
   margin-bottom: 3px;
 }
 
-/* line 27, ../scss/base/_init.scss */
+/* line 33, ../scss/base/_init.scss */
 .slogan h2 {
   font-size: 1.1rem;
   color: #0db14b;
   margin-top: 0.8rem;
 }
 
-/* line 32, ../scss/base/_init.scss */
+/* line 38, ../scss/base/_init.scss */
 .l-header {
   margin-bottom: 2rem;
 }
 
-/* line 35, ../scss/base/_init.scss */
+/* line 41, ../scss/base/_init.scss */
 .avatar-ul {
   margin: 0;
 }
 
-/* line 38, ../scss/base/_init.scss */
+/* line 44, ../scss/base/_init.scss */
 .left nav {
   margin-bottom: 2rem;
 }
 
-/* line 42, ../scss/base/_init.scss */
+/* line 48, ../scss/base/_init.scss */
 .logo-inside img {
   max-width: inherit;
   width: 142px;
 }
 
-/* line 48, ../scss/base/_init.scss */
+/* line 54, ../scss/base/_init.scss */
 .logo {
   /*width: 142px*/
   /*top: 0;*/
   /*position: absolute;*/
 }
 
-/* line 54, ../scss/base/_init.scss */
+/* line 60, ../scss/base/_init.scss */
 .tab-bar {
   position: absolute;
   width: 95%;
 }
 
-/* line 58, ../scss/base/_init.scss */
+/* line 64, ../scss/base/_init.scss */
 .tab-bar .menu-icon {
   /*margin-right: 1rem;*/
   /*margin-top: 1rem;*/
 }
 
-/* line 62, ../scss/base/_init.scss */
+/* line 68, ../scss/base/_init.scss */
 .l-featured.row {
   margin-bottom: 2rem;
 }
 
 /*off-canvas meny*/
-/* line 68, ../scss/base/_init.scss */
+/* line 74, ../scss/base/_init.scss */
 .right-off-canvas-menu {
   /*background: $jet;*/
 }
 
-/* line 71, ../scss/base/_init.scss */
+/* line 77, ../scss/base/_init.scss */
 .right-off-canvas-menu a,
 .right-off-canvas-menu li span.nolink {
   color: #FFFFFF;
@@ -8524,47 +8535,47 @@ th.hide-for-touch {
   font-size: 1rem;
 }
 
-/* line 77, ../scss/base/_init.scss */
+/* line 83, ../scss/base/_init.scss */
 .right-off-canvas-menu ul {
   margin-left: 0;
 }
 
-/* line 81, ../scss/base/_init.scss */
+/* line 87, ../scss/base/_init.scss */
 .right-off-canvas-menu ul li {
   list-style-type: none;
   position: relative;
 }
 
-/* line 85, ../scss/base/_init.scss */
+/* line 91, ../scss/base/_init.scss */
 .right-off-canvas-menu ul li a {
   padding-left: 0.8rem;
   font-family: arial, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif !important;
   line-height: 3.2rem;
 }
 
-/* line 90, ../scss/base/_init.scss */
+/* line 96, ../scss/base/_init.scss */
 .right-off-canvas-menu ul li ul li ul li a {
   font-style: italic;
   padding-left: 1.2rem;
 }
 
-/* line 94, ../scss/base/_init.scss */
+/* line 100, ../scss/base/_init.scss */
 .right-off-canvas-menu ul li.active-trail.active {
   /*background: #666;*/
 }
 
-/* line 97, ../scss/base/_init.scss */
+/* line 103, ../scss/base/_init.scss */
 .right-off-canvas-menu li li.expanded.active-trail {
   border-top: 1px solid #8a8a8a;
   border-bottom: 1px solid #8a8a8a;
 }
 
-/* line 101, ../scss/base/_init.scss */
+/* line 107, ../scss/base/_init.scss */
 .right-off-canvas-menu a.active-trail.active {
   color: #0db14b;
 }
 
-/* line 104, ../scss/base/_init.scss */
+/* line 110, ../scss/base/_init.scss */
 .off-canvas-submenu span {
   cursor: pointer;
   position: absolute;
@@ -8572,7 +8583,7 @@ th.hide-for-touch {
   z-index: 2;
 }
 
-/* line 110, ../scss/base/_init.scss */
+/* line 116, ../scss/base/_init.scss */
 .off-canvas-submenu .open-sub {
   width: 30px;
   margin-right: 0.5rem;
@@ -8582,14 +8593,14 @@ th.hide-for-touch {
 }
 
 /*Vertikala menu*/
-/* line 120, ../scss/base/_init.scss */
+/* line 126, ../scss/base/_init.scss */
 .menu ul li {
   list-style-type: none;
   list-style-position: 0;
 }
 
 /*Läs mer knapp*/
-/* line 127, ../scss/base/_init.scss */
+/* line 133, ../scss/base/_init.scss */
 .read-more a {
   color: #000;
   background: url("../images/pil-1.png") no-repeat left center;
@@ -8598,43 +8609,43 @@ th.hide-for-touch {
   /*margin-bottom: 1rem;*/
 }
 
-/* line 134, ../scss/base/_init.scss */
+/* line 140, ../scss/base/_init.scss */
 .read-more a:hover {
   color: #ffcc02;
 }
 
-/* line 137, ../scss/base/_init.scss */
+/* line 143, ../scss/base/_init.scss */
 .sidebar img {
   margin-bottom: 0.8rem;
 }
 
-/* line 140, ../scss/base/_init.scss */
+/* line 146, ../scss/base/_init.scss */
 .sidebar p {
   margin-bottom: 0.5rem;
 }
 
-/* line 143, ../scss/base/_init.scss */
+/* line 149, ../scss/base/_init.scss */
 .views-row {
   margin-bottom: 2rem;
 }
 
-/* line 146, ../scss/base/_init.scss */
+/* line 152, ../scss/base/_init.scss */
 .small-block-grid-3 li {
   margin: 0;
   padding: 0;
 }
 
-/* line 150, ../scss/base/_init.scss */
+/* line 156, ../scss/base/_init.scss */
 li.avatar-item {
   position: relative;
 }
 
-/* line 153, ../scss/base/_init.scss */
+/* line 159, ../scss/base/_init.scss */
 .avatar-img img {
   margin-bottom: 0;
 }
 
-/* line 156, ../scss/base/_init.scss */
+/* line 162, ../scss/base/_init.scss */
 .avatar-title {
   background: #000;
   opacity: 0.6;
@@ -8646,28 +8657,28 @@ li.avatar-item {
   padding: 0.2rem;
 }
 
-/* line 167, ../scss/base/_init.scss */
+/* line 173, ../scss/base/_init.scss */
 .avatar-title a {
   color: #fff;
 }
 
-/* line 170, ../scss/base/_init.scss */
+/* line 176, ../scss/base/_init.scss */
 .sidebar-first {
   padding-right: 2rem;
   /*margin-bottom: 2rem;*/
 }
 
-/* line 174, ../scss/base/_init.scss */
+/* line 180, ../scss/base/_init.scss */
 .sidebar-second {
   padding-left: 2rem;
 }
 
-/* line 177, ../scss/base/_init.scss */
+/* line 183, ../scss/base/_init.scss */
 .main, .sidebar-first {
   margin-bottom: 1.875rem;
 }
 
-/* line 180, ../scss/base/_init.scss */
+/* line 186, ../scss/base/_init.scss */
 .sidebar-first h2.block-title,
 .sidebar-second h2.block-title {
   background: url("../images/greensquare.png") no-repeat left center;
@@ -8676,7 +8687,7 @@ li.avatar-item {
   text-transform: none;
 }
 
-/* line 188, ../scss/base/_init.scss */
+/* line 194, ../scss/base/_init.scss */
 .sidebar-second .side-nav li a,
 .main .content-nav li a,
 .main ul.side-nav li a {
@@ -8691,13 +8702,13 @@ li.avatar-item {
   text-transform: capitalize;
 }
 
-/* line 201, ../scss/base/_init.scss */
+/* line 207, ../scss/base/_init.scss */
 .sidebar-second .side-nav li a:hover,
 .main .content-nav li a:hover {
   color: #0db14b;
 }
 
-/* line 205, ../scss/base/_init.scss */
+/* line 211, ../scss/base/_init.scss */
 .view-id-nyheter li,
 .main .content-nav li,
 .main ul.side-nav li,
@@ -8707,56 +8718,56 @@ li.avatar-item {
   padding-left: 0 !important;
 }
 
-/* line 213, ../scss/base/_init.scss */
+/* line 219, ../scss/base/_init.scss */
 .main .content-nav li,
 .side-nav li ul li {
   list-style-type: none;
 }
 
-/* line 217, ../scss/base/_init.scss */
+/* line 223, ../scss/base/_init.scss */
 .main ul.content-nav {
   margin: 0 !important;
 }
 
-/* line 220, ../scss/base/_init.scss */
+/* line 226, ../scss/base/_init.scss */
 .main .item-list ul li {
   margin: 0 0 0 1.5em;
 }
 
-/* line 223, ../scss/base/_init.scss */
+/* line 229, ../scss/base/_init.scss */
 .sidebar-second ul.side-nav li {
   margin: 0;
 }
 
-/* line 227, ../scss/base/_init.scss */
+/* line 233, ../scss/base/_init.scss */
 .uppdrag-tabell .item-list ul li {
   list-style-type: none;
   margin-bottom: 2rem;
   margin-left: 0;
 }
 
-/* line 232, ../scss/base/_init.scss */
+/* line 238, ../scss/base/_init.scss */
 .uppdrag-tabell h3 {
   margin: 0;
 }
 
-/* line 235, ../scss/base/_init.scss */
+/* line 241, ../scss/base/_init.scss */
 .uppdrag-tabell li .kat {
   font-size: 0.8rem;
 }
 
-/* line 238, ../scss/base/_init.scss */
+/* line 244, ../scss/base/_init.scss */
 .uppdrag-tabell .item-list ul li p {
   margin-bottom: 0.5rem;
 }
 
-/* line 241, ../scss/base/_init.scss */
+/* line 247, ../scss/base/_init.scss */
 .l-footer p {
   text-align: center;
   color: #4c4c4c;
 }
 
-/* line 245, ../scss/base/_init.scss */
+/* line 251, ../scss/base/_init.scss */
 .l-footer {
   border-top: 1px dotted #0db14b;
   padding-top: 1rem;
@@ -8764,68 +8775,68 @@ li.avatar-item {
 
 /*Custom breakpoints*/
 @media only screen and (max-width: 40em) {
-  /* line 254, ../scss/base/_init.scss */
+  /* line 260, ../scss/base/_init.scss */
   .slogan h2 {
     font-size: 1.2rem;
     text-align: center;
   }
 
-  /* line 258, ../scss/base/_init.scss */
+  /* line 264, ../scss/base/_init.scss */
   .page {
     margin-top: 0.7rem;
   }
 
-  /* line 261, ../scss/base/_init.scss */
+  /* line 267, ../scss/base/_init.scss */
   body {
     font-size: 1rem;
     line-height: 1.7rem;
   }
 
-  /* line 265, ../scss/base/_init.scss */
+  /* line 271, ../scss/base/_init.scss */
   .sidebar-first {
     padding-right: 0.9375rem;
   }
 
-  /* line 269, ../scss/base/_init.scss */
+  /* line 275, ../scss/base/_init.scss */
   .sidebar-second {
     padding-left: 0.9375rem;
   }
 
-  /* line 272, ../scss/base/_init.scss */
+  /* line 278, ../scss/base/_init.scss */
   .tab-bar {
     /*position: inherit;*/
     width: 100%;
   }
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 279, ../scss/base/_init.scss */
+  /* line 285, ../scss/base/_init.scss */
   .slogan h2 {
     font-size: 1.2rem;
     text-align: center;
   }
 
-  /* line 283, ../scss/base/_init.scss */
+  /* line 289, ../scss/base/_init.scss */
   .logo {
     width: 142px;
   }
 
-  /* line 286, ../scss/base/_init.scss */
+  /* line 292, ../scss/base/_init.scss */
   .page {
     margin-top: 2rem;
   }
 
-  /* line 289, ../scss/base/_init.scss */
+  /* line 295, ../scss/base/_init.scss */
   .sidebar-first {
     padding-right: 0.9375rem;
   }
 
-  /* line 293, ../scss/base/_init.scss */
+  /* line 299, ../scss/base/_init.scss */
   .sidebar-second {
     padding-left: 0.9375rem;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 299, ../scss/base/_init.scss */
+  /* line 305, ../scss/base/_init.scss */
   .page {
     margin-top: 2rem;
   }
